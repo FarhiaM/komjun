@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="komjunLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ejS-Is-5DH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="komjunLogo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ejS-Is-5DH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ejS-Is-5DH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HOP-Vr-BmW"/>
+                            <constraint firstAttribute="bottom" secondItem="ejS-Is-5DH" secondAttribute="bottom" id="Ngw-xw-YAc"/>
+                            <constraint firstItem="ejS-Is-5DH" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="PGM-tC-8MG"/>
+                            <constraint firstItem="ejS-Is-5DH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rXp-lz-INC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
