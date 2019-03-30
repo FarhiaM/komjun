@@ -7,68 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F30218FC224FDA53001DB5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30218FB224FDA53001DB5ED /* AppDelegate.swift */; };
-		F30218FE224FDA53001DB5ED /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30218FD224FDA53001DB5ED /* RootViewController.swift */; };
-		F3021900224FDA53001DB5ED /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30218FF224FDA53001DB5ED /* DataViewController.swift */; };
-		F3021902224FDA53001DB5ED /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021901224FDA53001DB5ED /* ModelController.swift */; };
-		F3021905224FDA53001DB5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3021903224FDA53001DB5ED /* Main.storyboard */; };
-		F3021907224FDA5A001DB5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3021906224FDA5A001DB5ED /* Assets.xcassets */; };
-		F302190A224FDA5A001DB5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3021908224FDA5A001DB5ED /* LaunchScreen.storyboard */; };
-		F3021915224FDA5A001DB5ED /* komjunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021914224FDA5A001DB5ED /* komjunTests.swift */; };
-		F3021920224FDA5A001DB5ED /* komjunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302191F224FDA5A001DB5ED /* komjunUITests.swift */; };
+		F302193A224FE1B6001DB5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021939224FE1B6001DB5ED /* AppDelegate.swift */; };
+		F302193C224FE1B6001DB5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302193B224FE1B6001DB5ED /* ViewController.swift */; };
+		F302193F224FE1B6001DB5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F302193D224FE1B6001DB5ED /* Main.storyboard */; };
+		F3021941224FE1C0001DB5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3021940224FE1C0001DB5ED /* Assets.xcassets */; };
+		F3021944224FE1C0001DB5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */; };
+		F302194F224FE1C0001DB5ED /* komjunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302194E224FE1C0001DB5ED /* komjunTests.swift */; };
+		F302195A224FE1C0001DB5ED /* komjunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021959224FE1C0001DB5ED /* komjunUITests.swift */; };
+		F3021969224FE236001DB5ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3021968224FE236001DB5ED /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F3021911224FDA5A001DB5ED /* PBXContainerItemProxy */ = {
+		F302194B224FE1C0001DB5ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F30218F0224FDA53001DB5ED /* Project object */;
+			containerPortal = F302192E224FE1B6001DB5ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F30218F7224FDA53001DB5ED;
+			remoteGlobalIDString = F3021935224FE1B6001DB5ED;
 			remoteInfo = komjun;
 		};
-		F302191C224FDA5A001DB5ED /* PBXContainerItemProxy */ = {
+		F3021956224FE1C0001DB5ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F30218F0224FDA53001DB5ED /* Project object */;
+			containerPortal = F302192E224FE1B6001DB5ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F30218F7224FDA53001DB5ED;
+			remoteGlobalIDString = F3021935224FE1B6001DB5ED;
 			remoteInfo = komjun;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F30218F8224FDA53001DB5ED /* komjun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komjun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30218FB224FDA53001DB5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F30218FD224FDA53001DB5ED /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		F30218FF224FDA53001DB5ED /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		F3021901224FDA53001DB5ED /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		F3021904224FDA53001DB5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3021906224FDA5A001DB5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3021909224FDA5A001DB5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F302190B224FDA5A001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3021910224FDA5A001DB5ED /* komjunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komjunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3021914224FDA5A001DB5ED /* komjunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komjunTests.swift; sourceTree = "<group>"; };
-		F3021916224FDA5A001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F302191B224FDA5A001DB5ED /* komjunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komjunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F302191F224FDA5A001DB5ED /* komjunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komjunUITests.swift; sourceTree = "<group>"; };
-		F3021921224FDA5A001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3021936224FE1B6001DB5ED /* komjun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komjun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3021939224FE1B6001DB5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F302193B224FE1B6001DB5ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F302193E224FE1B6001DB5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3021940224FE1C0001DB5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3021943224FE1C0001DB5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3021945224FE1C0001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F302194A224FE1C0001DB5ED /* komjunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komjunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F302194E224FE1C0001DB5ED /* komjunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komjunTests.swift; sourceTree = "<group>"; };
+		F3021950224FE1C0001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3021955224FE1C0001DB5ED /* komjunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komjunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3021959224FE1C0001DB5ED /* komjunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komjunUITests.swift; sourceTree = "<group>"; };
+		F302195B224FE1C0001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3021968224FE236001DB5ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F30218F5224FDA53001DB5ED /* Frameworks */ = {
+		F3021933224FE1B6001DB5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3021969224FE236001DB5ED /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3021947224FE1C0001DB5ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F302190D224FDA5A001DB5ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3021918224FDA5A001DB5ED /* Frameworks */ = {
+		F3021952224FE1C0001DB5ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,69 +77,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F30218EF224FDA53001DB5ED = {
+		F302192D224FE1B6001DB5ED = {
 			isa = PBXGroup;
 			children = (
-				F30218FA224FDA53001DB5ED /* komjun */,
-				F3021913224FDA5A001DB5ED /* komjunTests */,
-				F302191E224FDA5A001DB5ED /* komjunUITests */,
-				F30218F9224FDA53001DB5ED /* Products */,
+				F3021938224FE1B6001DB5ED /* komjun */,
+				F302194D224FE1C0001DB5ED /* komjunTests */,
+				F3021958224FE1C0001DB5ED /* komjunUITests */,
+				F3021937224FE1B6001DB5ED /* Products */,
+				F3021967224FE236001DB5ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F30218F9224FDA53001DB5ED /* Products */ = {
+		F3021937224FE1B6001DB5ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F30218F8224FDA53001DB5ED /* komjun.app */,
-				F3021910224FDA5A001DB5ED /* komjunTests.xctest */,
-				F302191B224FDA5A001DB5ED /* komjunUITests.xctest */,
+				F3021936224FE1B6001DB5ED /* komjun.app */,
+				F302194A224FE1C0001DB5ED /* komjunTests.xctest */,
+				F3021955224FE1C0001DB5ED /* komjunUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F30218FA224FDA53001DB5ED /* komjun */ = {
+		F3021938224FE1B6001DB5ED /* komjun */ = {
 			isa = PBXGroup;
 			children = (
-				F30218FB224FDA53001DB5ED /* AppDelegate.swift */,
-				F30218FD224FDA53001DB5ED /* RootViewController.swift */,
-				F30218FF224FDA53001DB5ED /* DataViewController.swift */,
-				F3021901224FDA53001DB5ED /* ModelController.swift */,
-				F3021903224FDA53001DB5ED /* Main.storyboard */,
-				F3021906224FDA5A001DB5ED /* Assets.xcassets */,
-				F3021908224FDA5A001DB5ED /* LaunchScreen.storyboard */,
-				F302190B224FDA5A001DB5ED /* Info.plist */,
+				F3021939224FE1B6001DB5ED /* AppDelegate.swift */,
+				F302193B224FE1B6001DB5ED /* ViewController.swift */,
+				F302193D224FE1B6001DB5ED /* Main.storyboard */,
+				F3021940224FE1C0001DB5ED /* Assets.xcassets */,
+				F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */,
+				F3021945224FE1C0001DB5ED /* Info.plist */,
 			);
 			path = komjun;
 			sourceTree = "<group>";
 		};
-		F3021913224FDA5A001DB5ED /* komjunTests */ = {
+		F302194D224FE1C0001DB5ED /* komjunTests */ = {
 			isa = PBXGroup;
 			children = (
-				F3021914224FDA5A001DB5ED /* komjunTests.swift */,
-				F3021916224FDA5A001DB5ED /* Info.plist */,
+				F302194E224FE1C0001DB5ED /* komjunTests.swift */,
+				F3021950224FE1C0001DB5ED /* Info.plist */,
 			);
 			path = komjunTests;
 			sourceTree = "<group>";
 		};
-		F302191E224FDA5A001DB5ED /* komjunUITests */ = {
+		F3021958224FE1C0001DB5ED /* komjunUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F302191F224FDA5A001DB5ED /* komjunUITests.swift */,
-				F3021921224FDA5A001DB5ED /* Info.plist */,
+				F3021959224FE1C0001DB5ED /* komjunUITests.swift */,
+				F302195B224FE1C0001DB5ED /* Info.plist */,
 			);
 			path = komjunUITests;
+			sourceTree = "<group>";
+		};
+		F3021967224FE236001DB5ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3021968224FE236001DB5ED /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F30218F7224FDA53001DB5ED /* komjun */ = {
+		F3021935224FE1B6001DB5ED /* komjun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3021924224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjun" */;
+			buildConfigurationList = F302195E224FE1C0001DB5ED /* Build configuration list for PBXNativeTarget "komjun" */;
 			buildPhases = (
-				F30218F4224FDA53001DB5ED /* Sources */,
-				F30218F5224FDA53001DB5ED /* Frameworks */,
-				F30218F6224FDA53001DB5ED /* Resources */,
+				F3021932224FE1B6001DB5ED /* Sources */,
+				F3021933224FE1B6001DB5ED /* Frameworks */,
+				F3021934224FE1B6001DB5ED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +154,74 @@
 			);
 			name = komjun;
 			productName = komjun;
-			productReference = F30218F8224FDA53001DB5ED /* komjun.app */;
+			productReference = F3021936224FE1B6001DB5ED /* komjun.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F302190F224FDA5A001DB5ED /* komjunTests */ = {
+		F3021949224FE1C0001DB5ED /* komjunTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3021927224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunTests" */;
+			buildConfigurationList = F3021961224FE1C0001DB5ED /* Build configuration list for PBXNativeTarget "komjunTests" */;
 			buildPhases = (
-				F302190C224FDA5A001DB5ED /* Sources */,
-				F302190D224FDA5A001DB5ED /* Frameworks */,
-				F302190E224FDA5A001DB5ED /* Resources */,
+				F3021946224FE1C0001DB5ED /* Sources */,
+				F3021947224FE1C0001DB5ED /* Frameworks */,
+				F3021948224FE1C0001DB5ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3021912224FDA5A001DB5ED /* PBXTargetDependency */,
+				F302194C224FE1C0001DB5ED /* PBXTargetDependency */,
 			);
 			name = komjunTests;
 			productName = komjunTests;
-			productReference = F3021910224FDA5A001DB5ED /* komjunTests.xctest */;
+			productReference = F302194A224FE1C0001DB5ED /* komjunTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F302191A224FDA5A001DB5ED /* komjunUITests */ = {
+		F3021954224FE1C0001DB5ED /* komjunUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F302192A224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunUITests" */;
+			buildConfigurationList = F3021964224FE1C0001DB5ED /* Build configuration list for PBXNativeTarget "komjunUITests" */;
 			buildPhases = (
-				F3021917224FDA5A001DB5ED /* Sources */,
-				F3021918224FDA5A001DB5ED /* Frameworks */,
-				F3021919224FDA5A001DB5ED /* Resources */,
+				F3021951224FE1C0001DB5ED /* Sources */,
+				F3021952224FE1C0001DB5ED /* Frameworks */,
+				F3021953224FE1C0001DB5ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F302191D224FDA5A001DB5ED /* PBXTargetDependency */,
+				F3021957224FE1C0001DB5ED /* PBXTargetDependency */,
 			);
 			name = komjunUITests;
 			productName = komjunUITests;
-			productReference = F302191B224FDA5A001DB5ED /* komjunUITests.xctest */;
+			productReference = F3021955224FE1C0001DB5ED /* komjunUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F30218F0224FDA53001DB5ED /* Project object */ = {
+		F302192E224FE1B6001DB5ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Komjun;
 				TargetAttributes = {
-					F30218F7224FDA53001DB5ED = {
+					F3021935224FE1B6001DB5ED = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
-					F302190F224FDA5A001DB5ED = {
+					F3021949224FE1C0001DB5ED = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F30218F7224FDA53001DB5ED;
+						TestTargetID = F3021935224FE1B6001DB5ED;
 					};
-					F302191A224FDA5A001DB5ED = {
+					F3021954224FE1C0001DB5ED = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F30218F7224FDA53001DB5ED;
+						TestTargetID = F3021935224FE1B6001DB5ED;
 					};
 				};
 			};
-			buildConfigurationList = F30218F3224FDA53001DB5ED /* Build configuration list for PBXProject "komjun" */;
+			buildConfigurationList = F3021931224FE1B6001DB5ED /* Build configuration list for PBXProject "komjun" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +229,37 @@
 				en,
 				Base,
 			);
-			mainGroup = F30218EF224FDA53001DB5ED;
-			productRefGroup = F30218F9224FDA53001DB5ED /* Products */;
+			mainGroup = F302192D224FE1B6001DB5ED;
+			productRefGroup = F3021937224FE1B6001DB5ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F30218F7224FDA53001DB5ED /* komjun */,
-				F302190F224FDA5A001DB5ED /* komjunTests */,
-				F302191A224FDA5A001DB5ED /* komjunUITests */,
+				F3021935224FE1B6001DB5ED /* komjun */,
+				F3021949224FE1C0001DB5ED /* komjunTests */,
+				F3021954224FE1C0001DB5ED /* komjunUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F30218F6224FDA53001DB5ED /* Resources */ = {
+		F3021934224FE1B6001DB5ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F302190A224FDA5A001DB5ED /* LaunchScreen.storyboard in Resources */,
-				F3021907224FDA5A001DB5ED /* Assets.xcassets in Resources */,
-				F3021905224FDA53001DB5ED /* Main.storyboard in Resources */,
+				F3021944224FE1C0001DB5ED /* LaunchScreen.storyboard in Resources */,
+				F3021941224FE1C0001DB5ED /* Assets.xcassets in Resources */,
+				F302193F224FE1B6001DB5ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F302190E224FDA5A001DB5ED /* Resources */ = {
+		F3021948224FE1C0001DB5ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3021919224FDA5A001DB5ED /* Resources */ = {
+		F3021953224FE1C0001DB5ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +269,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F30218F4224FDA53001DB5ED /* Sources */ = {
+		F3021932224FE1B6001DB5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30218FE224FDA53001DB5ED /* RootViewController.swift in Sources */,
-				F3021902224FDA53001DB5ED /* ModelController.swift in Sources */,
-				F3021900224FDA53001DB5ED /* DataViewController.swift in Sources */,
-				F30218FC224FDA53001DB5ED /* AppDelegate.swift in Sources */,
+				F302193C224FE1B6001DB5ED /* ViewController.swift in Sources */,
+				F302193A224FE1B6001DB5ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F302190C224FDA5A001DB5ED /* Sources */ = {
+		F3021946224FE1C0001DB5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3021915224FDA5A001DB5ED /* komjunTests.swift in Sources */,
+				F302194F224FE1C0001DB5ED /* komjunTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3021917224FDA5A001DB5ED /* Sources */ = {
+		F3021951224FE1C0001DB5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3021920224FDA5A001DB5ED /* komjunUITests.swift in Sources */,
+				F302195A224FE1C0001DB5ED /* komjunUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F3021912224FDA5A001DB5ED /* PBXTargetDependency */ = {
+		F302194C224FE1C0001DB5ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F30218F7224FDA53001DB5ED /* komjun */;
-			targetProxy = F3021911224FDA5A001DB5ED /* PBXContainerItemProxy */;
+			target = F3021935224FE1B6001DB5ED /* komjun */;
+			targetProxy = F302194B224FE1C0001DB5ED /* PBXContainerItemProxy */;
 		};
-		F302191D224FDA5A001DB5ED /* PBXTargetDependency */ = {
+		F3021957224FE1C0001DB5ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F30218F7224FDA53001DB5ED /* komjun */;
-			targetProxy = F302191C224FDA5A001DB5ED /* PBXContainerItemProxy */;
+			target = F3021935224FE1B6001DB5ED /* komjun */;
+			targetProxy = F3021956224FE1C0001DB5ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3021903224FDA53001DB5ED /* Main.storyboard */ = {
+		F302193D224FE1B6001DB5ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3021904224FDA53001DB5ED /* Base */,
+				F302193E224FE1B6001DB5ED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3021908224FDA5A001DB5ED /* LaunchScreen.storyboard */ = {
+		F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3021909224FDA5A001DB5ED /* Base */,
+				F3021943224FE1C0001DB5ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +329,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3021922224FDA5A001DB5ED /* Debug */ = {
+		F302195C224FE1C0001DB5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -381,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		F3021923224FDA5A001DB5ED /* Release */ = {
+		F302195D224FE1C0001DB5ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,7 +445,7 @@
 			};
 			name = Release;
 		};
-		F3021925224FDA5A001DB5ED /* Debug */ = {
+		F302195F224FE1C0001DB5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -453,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		F3021926224FDA5A001DB5ED /* Release */ = {
+		F3021960224FE1C0001DB5ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -470,7 +479,7 @@
 			};
 			name = Release;
 		};
-		F3021928224FDA5A001DB5ED /* Debug */ = {
+		F3021962224FE1C0001DB5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,7 +499,7 @@
 			};
 			name = Debug;
 		};
-		F3021929224FDA5A001DB5ED /* Release */ = {
+		F3021963224FE1C0001DB5ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +519,7 @@
 			};
 			name = Release;
 		};
-		F302192B224FDA5A001DB5ED /* Debug */ = {
+		F3021965224FE1C0001DB5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +538,7 @@
 			};
 			name = Debug;
 		};
-		F302192C224FDA5A001DB5ED /* Release */ = {
+		F3021966224FE1C0001DB5ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +560,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F30218F3224FDA53001DB5ED /* Build configuration list for PBXProject "komjun" */ = {
+		F3021931224FE1B6001DB5ED /* Build configuration list for PBXProject "komjun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3021922224FDA5A001DB5ED /* Debug */,
-				F3021923224FDA5A001DB5ED /* Release */,
+				F302195C224FE1C0001DB5ED /* Debug */,
+				F302195D224FE1C0001DB5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3021924224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjun" */ = {
+		F302195E224FE1C0001DB5ED /* Build configuration list for PBXNativeTarget "komjun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3021925224FDA5A001DB5ED /* Debug */,
-				F3021926224FDA5A001DB5ED /* Release */,
+				F302195F224FE1C0001DB5ED /* Debug */,
+				F3021960224FE1C0001DB5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3021927224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunTests" */ = {
+		F3021961224FE1C0001DB5ED /* Build configuration list for PBXNativeTarget "komjunTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3021928224FDA5A001DB5ED /* Debug */,
-				F3021929224FDA5A001DB5ED /* Release */,
+				F3021962224FE1C0001DB5ED /* Debug */,
+				F3021963224FE1C0001DB5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F302192A224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunUITests" */ = {
+		F3021964224FE1C0001DB5ED /* Build configuration list for PBXNativeTarget "komjunUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F302192B224FDA5A001DB5ED /* Debug */,
-				F302192C224FDA5A001DB5ED /* Release */,
+				F3021965224FE1C0001DB5ED /* Debug */,
+				F3021966224FE1C0001DB5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F30218F0224FDA53001DB5ED /* Project object */;
+	rootObject = F302192E224FE1B6001DB5ED /* Project object */;
 }
