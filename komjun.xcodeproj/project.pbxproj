@@ -79,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AC92B7B224FFD8A00E9D1B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F302192D224FE1B6001DB5ED = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +115,9 @@
 				F302193B224FE1B6001DB5ED /* ViewController.swift */,
 				F302193D224FE1B6001DB5ED /* Main.storyboard */,
 				F3021940224FE1C0001DB5ED /* Assets.xcassets */,
-				6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */,
 				F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */,
 				F3021945224FE1C0001DB5ED /* Info.plist */,
+				6AC92B7B224FFD8A00E9D1B6 /* Images */,
 			);
 			path = komjun;
 			sourceTree = "<group>";
