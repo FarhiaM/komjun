@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30218FC224FDA53001DB5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30218FB224FDA53001DB5ED /* AppDelegate.swift */; };
+		F30218FE224FDA53001DB5ED /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30218FD224FDA53001DB5ED /* RootViewController.swift */; };
+		F3021900224FDA53001DB5ED /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30218FF224FDA53001DB5ED /* DataViewController.swift */; };
+		F3021902224FDA53001DB5ED /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021901224FDA53001DB5ED /* ModelController.swift */; };
+		F3021905224FDA53001DB5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3021903224FDA53001DB5ED /* Main.storyboard */; };
+		F3021907224FDA5A001DB5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3021906224FDA5A001DB5ED /* Assets.xcassets */; };
+		F302190A224FDA5A001DB5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3021908224FDA5A001DB5ED /* LaunchScreen.storyboard */; };
+		F3021915224FDA5A001DB5ED /* komjunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021914224FDA5A001DB5ED /* komjunTests.swift */; };
+		F3021920224FDA5A001DB5ED /* komjunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302191F224FDA5A001DB5ED /* komjunUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3021911224FDA5A001DB5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30218F0224FDA53001DB5ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30218F7224FDA53001DB5ED;
+			remoteInfo = komjun;
+		};
+		F302191C224FDA5A001DB5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30218F0224FDA53001DB5ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30218F7224FDA53001DB5ED;
+			remoteInfo = komjun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30218F8224FDA53001DB5ED /* komjun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komjun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30218FB224FDA53001DB5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F30218FD224FDA53001DB5ED /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F30218FF224FDA53001DB5ED /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F3021901224FDA53001DB5ED /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F3021904224FDA53001DB5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3021906224FDA5A001DB5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3021909224FDA5A001DB5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F302190B224FDA5A001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3021910224FDA5A001DB5ED /* komjunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komjunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3021914224FDA5A001DB5ED /* komjunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komjunTests.swift; sourceTree = "<group>"; };
+		F3021916224FDA5A001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F302191B224FDA5A001DB5ED /* komjunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = komjunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F302191F224FDA5A001DB5ED /* komjunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komjunUITests.swift; sourceTree = "<group>"; };
+		F3021921224FDA5A001DB5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30218F5224FDA53001DB5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F302190D224FDA5A001DB5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3021918224FDA5A001DB5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30218EF224FDA53001DB5ED = {
+			isa = PBXGroup;
+			children = (
+				F30218FA224FDA53001DB5ED /* komjun */,
+				F3021913224FDA5A001DB5ED /* komjunTests */,
+				F302191E224FDA5A001DB5ED /* komjunUITests */,
+				F30218F9224FDA53001DB5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30218F9224FDA53001DB5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30218F8224FDA53001DB5ED /* komjun.app */,
+				F3021910224FDA5A001DB5ED /* komjunTests.xctest */,
+				F302191B224FDA5A001DB5ED /* komjunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30218FA224FDA53001DB5ED /* komjun */ = {
+			isa = PBXGroup;
+			children = (
+				F30218FB224FDA53001DB5ED /* AppDelegate.swift */,
+				F30218FD224FDA53001DB5ED /* RootViewController.swift */,
+				F30218FF224FDA53001DB5ED /* DataViewController.swift */,
+				F3021901224FDA53001DB5ED /* ModelController.swift */,
+				F3021903224FDA53001DB5ED /* Main.storyboard */,
+				F3021906224FDA5A001DB5ED /* Assets.xcassets */,
+				F3021908224FDA5A001DB5ED /* LaunchScreen.storyboard */,
+				F302190B224FDA5A001DB5ED /* Info.plist */,
+			);
+			path = komjun;
+			sourceTree = "<group>";
+		};
+		F3021913224FDA5A001DB5ED /* komjunTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3021914224FDA5A001DB5ED /* komjunTests.swift */,
+				F3021916224FDA5A001DB5ED /* Info.plist */,
+			);
+			path = komjunTests;
+			sourceTree = "<group>";
+		};
+		F302191E224FDA5A001DB5ED /* komjunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F302191F224FDA5A001DB5ED /* komjunUITests.swift */,
+				F3021921224FDA5A001DB5ED /* Info.plist */,
+			);
+			path = komjunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30218F7224FDA53001DB5ED /* komjun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3021924224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjun" */;
+			buildPhases = (
+				F30218F4224FDA53001DB5ED /* Sources */,
+				F30218F5224FDA53001DB5ED /* Frameworks */,
+				F30218F6224FDA53001DB5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = komjun;
+			productName = komjun;
+			productReference = F30218F8224FDA53001DB5ED /* komjun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F302190F224FDA5A001DB5ED /* komjunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3021927224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunTests" */;
+			buildPhases = (
+				F302190C224FDA5A001DB5ED /* Sources */,
+				F302190D224FDA5A001DB5ED /* Frameworks */,
+				F302190E224FDA5A001DB5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3021912224FDA5A001DB5ED /* PBXTargetDependency */,
+			);
+			name = komjunTests;
+			productName = komjunTests;
+			productReference = F3021910224FDA5A001DB5ED /* komjunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F302191A224FDA5A001DB5ED /* komjunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F302192A224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunUITests" */;
+			buildPhases = (
+				F3021917224FDA5A001DB5ED /* Sources */,
+				F3021918224FDA5A001DB5ED /* Frameworks */,
+				F3021919224FDA5A001DB5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F302191D224FDA5A001DB5ED /* PBXTargetDependency */,
+			);
+			name = komjunUITests;
+			productName = komjunUITests;
+			productReference = F302191B224FDA5A001DB5ED /* komjunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30218F0224FDA53001DB5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Komjun;
+				TargetAttributes = {
+					F30218F7224FDA53001DB5ED = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F302190F224FDA5A001DB5ED = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F30218F7224FDA53001DB5ED;
+					};
+					F302191A224FDA5A001DB5ED = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F30218F7224FDA53001DB5ED;
+					};
+				};
+			};
+			buildConfigurationList = F30218F3224FDA53001DB5ED /* Build configuration list for PBXProject "komjun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30218EF224FDA53001DB5ED;
+			productRefGroup = F30218F9224FDA53001DB5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30218F7224FDA53001DB5ED /* komjun */,
+				F302190F224FDA5A001DB5ED /* komjunTests */,
+				F302191A224FDA5A001DB5ED /* komjunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30218F6224FDA53001DB5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F302190A224FDA5A001DB5ED /* LaunchScreen.storyboard in Resources */,
+				F3021907224FDA5A001DB5ED /* Assets.xcassets in Resources */,
+				F3021905224FDA53001DB5ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F302190E224FDA5A001DB5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3021919224FDA5A001DB5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30218F4224FDA53001DB5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30218FE224FDA53001DB5ED /* RootViewController.swift in Sources */,
+				F3021902224FDA53001DB5ED /* ModelController.swift in Sources */,
+				F3021900224FDA53001DB5ED /* DataViewController.swift in Sources */,
+				F30218FC224FDA53001DB5ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F302190C224FDA5A001DB5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3021915224FDA5A001DB5ED /* komjunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3021917224FDA5A001DB5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3021920224FDA5A001DB5ED /* komjunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3021912224FDA5A001DB5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30218F7224FDA53001DB5ED /* komjun */;
+			targetProxy = F3021911224FDA5A001DB5ED /* PBXContainerItemProxy */;
+		};
+		F302191D224FDA5A001DB5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30218F7224FDA53001DB5ED /* komjun */;
+			targetProxy = F302191C224FDA5A001DB5ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3021903224FDA53001DB5ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3021904224FDA53001DB5ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3021908224FDA5A001DB5ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3021909224FDA5A001DB5ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3021922224FDA5A001DB5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3021923224FDA5A001DB5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3021925224FDA5A001DB5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = komjun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komjun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3021926224FDA5A001DB5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = komjun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komjun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3021928224FDA5A001DB5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = komjunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komjunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/komjun.app/komjun";
+			};
+			name = Debug;
+		};
+		F3021929224FDA5A001DB5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = komjunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komjunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/komjun.app/komjun";
+			};
+			name = Release;
+		};
+		F302192B224FDA5A001DB5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = komjunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komjunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = komjun;
+			};
+			name = Debug;
+		};
+		F302192C224FDA5A001DB5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = komjunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.komjunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = komjun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30218F3224FDA53001DB5ED /* Build configuration list for PBXProject "komjun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3021922224FDA5A001DB5ED /* Debug */,
+				F3021923224FDA5A001DB5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3021924224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3021925224FDA5A001DB5ED /* Debug */,
+				F3021926224FDA5A001DB5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3021927224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3021928224FDA5A001DB5ED /* Debug */,
+				F3021929224FDA5A001DB5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F302192A224FDA5A001DB5ED /* Build configuration list for PBXNativeTarget "komjunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F302192B224FDA5A001DB5ED /* Debug */,
+				F302192C224FDA5A001DB5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30218F0224FDA53001DB5ED /* Project object */;
+}
