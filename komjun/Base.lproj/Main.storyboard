@@ -18,24 +18,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="akq-za-A5Z">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="akq-za-A5Z">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05Y-8W-DtL" userLabel="NewReportButton">
+                                <rect key="frame" x="314" y="762" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.53725490200000003" green="0.13725490200000001" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" label="Skapa ny anmälan"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="cYZ-K3-bMm"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="sUQ-bQ-8KB"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="V2s-jb-2f3" kind="show" id="F8R-8O-Q7o"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="akq-za-A5Z" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HBz-yc-Rnn"/>
-                            <constraint firstItem="akq-za-A5Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j59-J4-HyD"/>
-                            <constraint firstItem="akq-za-A5Z" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nz6-iK-B86"/>
-                            <constraint firstAttribute="bottom" secondItem="akq-za-A5Z" secondAttribute="bottom" id="nzh-a1-V9I"/>
-                            <constraint firstItem="akq-za-A5Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ymD-oe-mP2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="05Y-8W-DtL" secondAttribute="trailing" constant="50" id="SPM-Qk-khJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="05Y-8W-DtL" secondAttribute="bottom" constant="50" id="yXb-o5-lZV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="fab" destination="05Y-8W-DtL" id="NUm-L5-hIX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+        </scene>
+        <!--Report View Controller-->
+        <scene sceneID="oG3-L9-a0P">
+            <objects>
+                <viewController id="V2s-jb-2f3" customClass="ReportViewController" customModule="komjun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rav-qo-XTr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWF-Tn-UtD">
+                                <rect key="frame" x="181" y="433" width="53" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tillbaka">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="2Di-gC-QP8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53725490200000003" green="0.13725490200000001" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="CVj-lN-fpT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFb-fv-Zy5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869" y="91"/>
         </scene>
     </scenes>
 </document>
