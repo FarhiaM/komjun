@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6AC92B79224FEB2B00E9D1B6 /* komjunLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */; };
+		6AC92B7F2250082100E9D1B6 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */; };
 		F302193A224FE1B6001DB5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021939224FE1B6001DB5ED /* AppDelegate.swift */; };
 		F302193C224FE1B6001DB5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302193B224FE1B6001DB5ED /* ViewController.swift */; };
 		F302193F224FE1B6001DB5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F302193D224FE1B6001DB5ED /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komjunLogo.png; sourceTree = "<group>"; };
+		6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		F3021936224FE1B6001DB5ED /* komjun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komjun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3021939224FE1B6001DB5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F302193B224FE1B6001DB5ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				F3021939224FE1B6001DB5ED /* AppDelegate.swift */,
 				F302193B224FE1B6001DB5ED /* ViewController.swift */,
+				6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */,
 				F302193D224FE1B6001DB5ED /* Main.storyboard */,
 				F3021940224FE1C0001DB5ED /* Assets.xcassets */,
 				F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */,
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F302193C224FE1B6001DB5ED /* ViewController.swift in Sources */,
+				6AC92B7F2250082100E9D1B6 /* ReportViewController.swift in Sources */,
 				F302193A224FE1B6001DB5ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
