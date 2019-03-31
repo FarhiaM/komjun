@@ -1,3 +1,3 @@
-# komjun
+# /'komju:n/
 
 Stay tuned...
