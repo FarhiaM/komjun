@@ -8,8 +8,9 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class ViewController: UIViewController, UISearchBarDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var fab: UIButton!
@@ -19,13 +20,26 @@ class ViewController: UIViewController, UISearchBarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fab.layer.cornerRadius = 30
-        fab.layer.masksToBounds = true
-        fab.layer.zPosition = 1
         
+        // Create round fabutton
+        createFab()
+        
+        // Zoom in to users position
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.startUpdatingLocation()
+        
+        if CLLocationManager.locationServicesEnabled(){
+            // locationManager.delegate = self
+            // locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            // locationManager.requestLocation()
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
 
+    
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         print("Search bar clicked")
         UIApplication.shared.beginIgnoringInteractionEvents()
@@ -54,11 +68,13 @@ class ViewController: UIViewController, UISearchBarDelegate {
         }
         
     }
-    
-    @IBAction func newReportPressed() {
-        print("Button pressed!!")
+    private func createFab(){
+        fab.layer.cornerRadius = 40
+        fab.layer.zPosition = 1
+        let borderAlpha : CGFloat = 0.7
+        fab.backgroundColor = UIColor.clear
+        fab.layer.borderWidth = 3.0
+        fab.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).cgColor
     }
-
-
 }
 
