@@ -10,6 +10,7 @@
 		42969821225748E100E1893D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42969820225748E100E1893D /* GoogleService-Info.plist */; };
 		6AC92B79224FEB2B00E9D1B6 /* komjunLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */; };
 		6AC92B7F2250082100E9D1B6 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */; };
+		6AE207B02257708100173D11 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE207AF2257708100173D11 /* FilterViewController.swift */; };
 		AD9CDC56C8D777BBD0AB4777 /* Pods_komjun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220184DB49ADC19B1813B4E1 /* Pods_komjun.framework */; };
 		F302193A224FE1B6001DB5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3021939224FE1B6001DB5ED /* AppDelegate.swift */; };
 		F302193C224FE1B6001DB5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302193B224FE1B6001DB5ED /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		42969820225748E100E1893D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komjunLogo.png; sourceTree = "<group>"; };
 		6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		6AE207AF2257708100173D11 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		D1193C372EF1F2629F33D4DF /* Pods-komjun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komjun.debug.xcconfig"; path = "Target Support Files/Pods-komjun/Pods-komjun.debug.xcconfig"; sourceTree = "<group>"; };
 		F3021936224FE1B6001DB5ED /* komjun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = komjun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3021939224FE1B6001DB5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				F3021939224FE1B6001DB5ED /* AppDelegate.swift */,
 				F302193B224FE1B6001DB5ED /* ViewController.swift */,
 				6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */,
+				6AE207AF2257708100173D11 /* FilterViewController.swift */,
 				F302193D224FE1B6001DB5ED /* Main.storyboard */,
 				F3021940224FE1C0001DB5ED /* Assets.xcassets */,
 				F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */,
@@ -361,6 +364,7 @@
 			files = (
 				F302193C224FE1B6001DB5ED /* ViewController.swift in Sources */,
 				6AC92B7F2250082100E9D1B6 /* ReportViewController.swift in Sources */,
+				6AE207B02257708100173D11 /* FilterViewController.swift in Sources */,
 				F302193A224FE1B6001DB5ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

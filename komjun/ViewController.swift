@@ -72,9 +72,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         fab.layer.cornerRadius = 40
         fab.layer.zPosition = 1
         let borderAlpha : CGFloat = 0.7
-        fab.backgroundColor = UIColor.clear
+        fab.backgroundColor = UIColor.white
+        fab.layer.borderColor = UIColor(red: 38, green: 153, blue: 251, alpha: borderAlpha).cgColor
         fab.layer.borderWidth = 3.0
-        fab.layer.borderColor = UIColor(white: 1.0, alpha: borderAlpha).cgColor
+        //fab.layer.borderColor = UIColor(named: blue).cgColor
+        
     }
 }
 
