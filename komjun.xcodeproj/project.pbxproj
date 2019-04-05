@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4296981F225731FB00E1893D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4296981E225731FB00E1893D /* GoogleService-Info.plist */; };
+		42969821225748E100E1893D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42969820225748E100E1893D /* GoogleService-Info.plist */; };
 		6AC92B79224FEB2B00E9D1B6 /* komjunLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */; };
 		6AC92B7F2250082100E9D1B6 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */; };
 		AD9CDC56C8D777BBD0AB4777 /* Pods_komjun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220184DB49ADC19B1813B4E1 /* Pods_komjun.framework */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		220184DB49ADC19B1813B4E1 /* Pods_komjun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_komjun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319F4CF9008BB85FAE5D1CC8 /* Pods-komjun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komjun.release.xcconfig"; path = "Target Support Files/Pods-komjun/Pods-komjun.release.xcconfig"; sourceTree = "<group>"; };
-		4296981E225731FB00E1893D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42969820225748E100E1893D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AC92B78224FEB2B00E9D1B6 /* komjunLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komjunLogo.png; sourceTree = "<group>"; };
 		6AC92B7E2250082100E9D1B6 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		D1193C372EF1F2629F33D4DF /* Pods-komjun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-komjun.debug.xcconfig"; path = "Target Support Files/Pods-komjun/Pods-komjun.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				F3021940224FE1C0001DB5ED /* Assets.xcassets */,
 				F3021942224FE1C0001DB5ED /* LaunchScreen.storyboard */,
 				F3021945224FE1C0001DB5ED /* Info.plist */,
-				4296981E225731FB00E1893D /* GoogleService-Info.plist */,
+				42969820225748E100E1893D /* GoogleService-Info.plist */,
 				6AC92B7B224FFD8A00E9D1B6 /* Images */,
 			);
 			path = komjun;
@@ -283,7 +283,7 @@
 			files = (
 				F3021944224FE1C0001DB5ED /* LaunchScreen.storyboard in Resources */,
 				F3021941224FE1C0001DB5ED /* Assets.xcassets in Resources */,
-				4296981F225731FB00E1893D /* GoogleService-Info.plist in Resources */,
+				42969821225748E100E1893D /* GoogleService-Info.plist in Resources */,
 				6AC92B79224FEB2B00E9D1B6 /* komjunLogo.png in Resources */,
 				F302193F224FE1B6001DB5ED /* Main.storyboard in Resources */,
 			);
